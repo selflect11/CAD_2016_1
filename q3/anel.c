@@ -53,6 +53,7 @@ int main(int argc, char** argv){
 	return 0;
 }
 
+// NAO FUNCIONANDO
 float **allocateMatrix(int ARRAY_SIZE, int rank){
 	float *data = (float *) malloc(ARRAY_SIZE*ARRAY_SIZE * sizeof(float));
 	float **array = (float **) malloc(ARRAY_SIZE * sizeof(float *));
